@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favourite music is here</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="static/logo.png" alt="Spotify" />Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="static/covers/1.jpg" alt="1">
+                    <span class="songName">Raabta</span>
+                    <span class="songlistplay"><span class="timestamp">03:35 <i id="0"
+                                class="fa-regular songItemPlay fa-1x fa-circle-play"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="static/covers/2.jpg" alt="2">
+                    <span class="songName">Saiyaan</span>
+                    <span class="songlistplay"><span class="timestamp">05:15 <i id="1"
+                                class="fa-regular songItemPlay fa-1x fa-circle-play"></i></span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="static/covers/3.jpg" alt="3">
+                    <span class="songName">Mitwaa</span>
+                    <span class="songlistplay"><span class="timestamp">04:48 <i id="2"
+                                class="fa-regular songItemPlay fa-1x fa-circle-play"></i></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-regular songItemPlay fa-3x  fa-solid fa-backward" id="previous"></i>
+            <i class="fa-regular songItemPlay fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-regular songItemPlay fa-3x  fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="static/playing.gif" width="43px" alt="" id="'gif"> <span id="masterSongName">Raabta - Jubin
+                Nautiyaal</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/67f9d43f37.js" crossorigin="anonymous"></script>
+    <script src="static/script.js"></script>
+</body>
+
+</html>
